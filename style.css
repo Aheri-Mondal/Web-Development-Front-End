@@ -1,0 +1,810 @@
+body{
+	margin: 0px auto;
+	width: 100%;
+}
+#divtop{
+	background-color: #d7385e;
+	height: 55px;
+}
+#divtop .divtopitems{
+	vertical-align: center;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+#divtop .divtopitems li{
+	list-style-type: none;
+	float: left;
+	padding-right: 100px;
+	vertical-align: center;
+	padding-left: 50px;
+	margin: auto;
+	padding-top: 8px;
+}
+
+#logo{
+	width: 150px;
+	height: 40px;
+	border-radius: 5px;
+}
+#searchBar{
+	width:500px;
+	height: 30px;
+	border-radius: 50px;
+}
+#searchbtn {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+#searchbtn:hover {
+  background: #0b7dda;
+}
+#LoginBtn{
+	width: 100px;
+	height: 30px;
+	border-radius: 15px;
+	color: #70416d;
+	background-color: #ffffff;
+}
+#menuBar{
+	background-color: #512b58;
+	height: 50px;
+}
+#menuBar ul{
+	float: left;
+	margin-bottom:0px;
+}
+#menuBar ul li{
+	float:left;
+	list-style-type: none;
+	padding-left: 80px;
+	padding-right: 20px;
+	vertical-align: center;
+	color: white;
+	font-size: 20px;
+}
+#menuBar ul li a{
+	color: white;
+}
+#menuBar ul li a:hover{
+	color: #fe346e;
+}
+
+#slide{
+	display: flex;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	width: 100%;
+}
+
+#slide li{
+	display: block;
+	list-style: none;
+}
+
+#slide li img{
+	height: 200px;
+	width: 100%;
+}
+.slider-wrapper ul li{
+ 	list-style-type: none;
+}
+
+ .slider {
+	width: 100%;
+	margin: 2em auto;
+	
+}
+
+.slider-wrapper {
+	width: 100%;
+	height: 250px;
+	position: relative;
+}
+
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 0.5s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+p{
+	padding-left: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.deals .inner div{
+	float: left;
+	width: 30%;
+	height: 300px;
+	padding-left: 30px;
+	padding-right: 10px;	
+	vertical-align: center;
+	display: table-cell;
+	margin: auto;
+}
+.deals .inner div img{
+	width: 80%;
+	height: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: block;
+}
+.details{
+	width: 100%;
+	float: left;
+	background-color:#010a43;
+}
+.details1{
+	width: 60%;
+	float: left;
+}
+.details1 div{
+	width:30%;
+	float: left;
+	list-style-type: none;
+}
+.details1 div ul li{
+	list-style-type: none;
+}
+.details1 div ul li a{
+	color:#c9d1d3; 
+}
+.details1 div ul li a:hover{
+	color:#ffffff;
+}
+.details2{
+	width:40%;
+	float: left;
+}
+.details2 div{
+	width: 50%;
+	float: left;
+}
+.details2 div ul li{
+	 list-style-type: none;
+	 color:#c9d1d3;
+}
+
+.deals .inner div img:hover{
+	width:95%;
+	height:90%;
+	align-content: center;
+	border-width: 5px;
+	border-color:#a0ffe6;
+	border-style:solid;
+}
+
+a{
+	text-decoration: none;
+}
+.iconlist table tr td{
+	text-align: center;
+	padding-left:50px;
+	padding-right: 10px;
+}
+.iconlist table tr td img{
+	width: 150px;
+	height: 80px;
+}
+.mobileslist table tr td{
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 160px;
+	padding-left:20px;
+	padding-right: 10px;
+}
+
+.productdetails{	
+	align-content: center;
+	padding-left: 8%;	
+	padding-right: 2%;
+	padding-top: 2%;
+}
+.productdetails .phimage{
+	
+	width: 30%;
+	height: 416px;	
+	border-style: ridge;
+	border-color: aquamarine;
+	text-align: center;
+	display:table-cell;
+	float: left;
+	vertical-align:middle;
+	padding-top: 10px;
+}
+.productdetails .phdetails{
+	width: 60%;
+	float: left;
+	text-align: left;
+	display:table-cell;
+	padding-left: 2%;
+}
+
+.phimage img{
+	width: auto;
+	height: 400px;
+	padding-bottom: 2%;
+}
+#cartbtn{
+	width: 170px;
+	height: 50px;
+	background-color: orange;
+	padding-right: 2%;
+} 
+#buybtn{
+	width: 170px;
+	height: 50px;
+	background-color:#c82121;
+	padding-left: 2%;
+}
+
+/*Responsive Designing*/
+@media (min-width:318px) and (max-width:374px){
+#divtop .divtopitems{
+	padding-left:2px;
+}
+#divtop .divtopitems li{
+	padding-right:10px;
+	padding-left:3px;
+	margin: auto;
+	padding-top: 10px;
+}
+#logo{
+	width:80px;
+	height:40px;
+}
+#searchBar{
+	width:100px;
+	height: 30px;
+}
+#LoginBtn{
+	width:80px;
+	height:30px;
+}
+#menuBar ul{
+	padding-left: 0px;
+}
+#menuBar ul li{
+	padding-left:2px;
+	padding-right:4px;
+	vertical-align: center;
+	font-size:10px;
+}
+.deals .inner div{
+	width: 90%;
+	height: 300px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.details1{
+	width:100%;
+	padding-left: 5px;
+}
+.details1 div ul li a{
+	font-size: 15px; 
+}
+.details1 div ul{
+	padding-left:10px;
+}
+.details2{
+	width:100%;
+	padding-left: 5px;
+}
+.details2 div ul li{
+	font-size:15px; 
+}
+.details2 div ul{
+	padding-left:10px;
+}
+.iconlist{
+	max-height:1050px;
+	overflow: scroll;
+}
+.mobileslist{
+	max-height:1050px;
+	overflow: scroll;
+}
+.productdetails{	
+	align-content: center;
+	padding-left: 4%;	
+	padding-right: 6%;
+	padding-top: 2%;
+}
+.productdetails .phimage{
+	
+	width: 100%;
+	height: 416px;	
+	text-align: center;
+	display:table-cell;
+	float: left;
+	vertical-align:middle;
+	padding-top: 10px;
+}
+.productdetails .phdetails{
+	width: 100%;
+	float: left;
+	text-align: left;
+	display:table-cell;
+	padding-left: 2%;
+	padding-top: 150px;
+}
+
+.phimage img{
+	width: auto;
+	height: 400px;
+	padding-bottom: 2%;
+}
+}
+@media (min-width:375px) and (max-width:424px){
+#divtop .divtopitems{
+	padding-left:10px;
+}
+#divtop .divtopitems li{
+	padding-right:10px;
+	padding-left:3px;
+	margin: auto;
+	padding-top: 10px;
+}
+#logo{
+	width:80px;
+	height:40px;
+}
+#searchBar{
+	width:140px;
+	height: 30px;
+}
+#LoginBtn{
+	width:80px;
+	height:30px;
+}
+#menuBar ul{
+	padding-left: 0px;
+}
+#menuBar ul li{
+	padding-left:6px;
+	padding-right:2px;
+	vertical-align: center;
+	font-size:11px;
+}
+.deals .inner div{
+	width: 90%;
+	height: 300px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.details1{
+	width:100%;
+	padding-left:8px;
+}
+.details1 div ul li a{
+	font-size: 15px; 
+}
+.details1 div ul{
+	padding-left:15px;
+}
+.details2{
+	width:100%;
+	padding-left:8px;
+}
+.details2 div{
+	width:46%;
+}
+.details2 div ul li{
+	font-size:15px; 
+}
+.details2 div ul{
+	padding-left:15px;
+}
+.iconlist{
+	max-height:1050px;
+	overflow: scroll;
+}
+.mobileslist{
+	max-height:1050px;
+	overflow: scroll;
+}
+.productdetails{	
+	align-content: center;
+	padding-left: 4%;	
+	padding-right: 6%;
+	padding-top: 2%;
+}
+.productdetails .phimage{
+	
+	width: 100%;
+	height: 416px;	
+	text-align: center;
+	display:table-cell;
+	float: left;
+	vertical-align:middle;
+	padding-top: 10px;
+}
+.productdetails .phdetails{
+	width: 100%;
+	float: left;
+	text-align: left;
+	display:table-cell;
+	padding-left: 2%;
+	padding-top: 150px;
+}
+
+.phimage img{
+	width: auto;
+	height: 400px;
+	padding-bottom: 2%;
+}
+}
+@media (min-width:425px) and (max-width:767px){
+#divtop .divtopitems{
+	padding-left:10px;
+}
+#divtop .divtopitems li{
+	padding-right:10px;
+	padding-left:8px;
+	margin: auto;
+	padding-top: 10px;
+}
+#logo{
+	width:80px;
+	height:40px;
+}
+#searchBar{
+	width:160px;
+	height: 30px;
+}
+#LoginBtn{
+	width:80px;
+	height:30px;
+}
+#menuBar ul{
+	padding-left: 0px;
+}
+#menuBar ul li{
+	padding-left:6px;
+	padding-right:2px;
+	vertical-align: center;
+	font-size:13px;
+}
+.deals .inner div{
+	width: 90%;
+	height: 300px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.details1{
+	width:100%;
+	padding-left:8px;
+}
+.details1 div ul li a{
+	font-size: 15px; 
+}
+.details1 div ul{
+	padding-left:15px;
+}
+.details2{
+	width:100%;
+	padding-left:8px;
+}
+.details2 div{
+	width:46%;
+}
+.details2 div ul li{
+	font-size:15px; 
+}
+.details2 div ul{
+	padding-left:15px;
+}
+.iconlist{
+	max-height:1050px;
+	overflow: scroll;
+}
+.mobileslist{
+	max-height:1050px;
+	overflow: scroll;
+}
+.productdetails{	
+	align-content: center;
+	padding-left: 4%;	
+	padding-right: 6%;
+	padding-top: 2%;
+}
+.productdetails .phimage{
+	
+	width: 100%;
+	height: 416px;	
+	text-align: center;
+	display:table-cell;
+	float: left;
+	vertical-align:middle;
+	padding-top: 10px;
+}
+.productdetails .phdetails{
+	width: 100%;
+	float: left;
+	text-align: left;
+	display:table-cell;
+	padding-left: 2%;
+	padding-top: 150px;
+}
+
+.phimage img{
+	width: auto;
+	height: 400px;
+	padding-bottom: 2%;
+}
+}
+@media (min-width:768px) and (max-width:1023px){
+#divtop .divtopitems{
+	padding-left:10px;
+}
+#divtop .divtopitems li{
+	padding-right:45px;
+	padding-left:25px;
+	margin: auto;
+	padding-top: 10px;
+}
+#logo{
+	width:110px;
+	height:40px;
+}
+#searchBar{
+	width:280px;
+	height: 30px;
+}
+#LoginBtn{
+	width:100px;
+	height:30px;
+}
+#menuBar ul{
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+#menuBar ul li{
+	padding-left:12px;
+	padding-right:12px;
+	vertical-align: center;
+	font-size:18px;
+}
+.deals .inner div{
+	float: left;
+	width: 30%;
+	height: 250px;
+	padding-left: 15px;
+	padding-right: 10px;	
+	vertical-align: center;
+	display: table-cell;
+	margin: auto;
+}
+.deals .inner div img{
+	width: 80%;
+	height: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: block;
+}
+.details{
+	width: 100%;
+	float: left;
+}
+.details1{
+	width: 60%;
+	float: left;
+}
+.details1 div{
+	width:30%;
+	float: left;
+}
+.details1 div ul{
+	padding-left:15px;
+}
+.details2{
+	width:40%;
+	float: left;
+}
+.details2 div{
+	width:45%;
+	float: left;
+	padding-right:5px;
+}
+.details2 div ul{
+	padding-left:5px;
+}
+.iconlist{
+	max-height:1050px;
+	overflow: scroll;
+}
+.mobileslist{
+	max-height:1050px;
+	overflow: scroll;
+}
+}
+@media (min-width:1024px) and (max-width:1230px){
+#divtop .divtopitems{
+	padding-left:10px;
+}
+#divtop .divtopitems li{
+	padding-right:55px;
+	padding-left:35px;
+	margin: auto;
+	padding-top: 10px;
+}
+#logo{
+	width:110px;
+	height:40px;
+}
+#searchBar{
+	width:400px;
+	height: 30px;
+}
+#LoginBtn{
+	width:120px;
+	height:32px;
+}
+#menuBar ul{
+	padding-left: 0px;
+}
+#menuBar ul li{
+	padding-left:22px;
+	padding-right:18px;
+	vertical-align: center;
+	font-size:22px;
+}
+.deals .inner div{
+	float: left;
+	width: 30%;
+	height: 300px;
+	padding-left: 15px;
+	padding-right: 10px;	
+	vertical-align: center;
+	display: table-cell;
+	margin: auto;
+}
+.deals .inner div img{
+	width: 80%;
+	height: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: block;
+}
+.details{
+	width: 100%;
+	float: left;
+}
+.details1{
+	width: 60%;
+	float: left;
+}
+.details1 div{
+	width:30%;
+	float: left;
+}
+.details1 div ul{
+	padding-left:15px;
+}
+.details2{
+	width:40%;
+	float: left;
+}
+.details2 div{
+	width:45%;
+	float: left;
+	padding-right:5px;
+}
+.details2 div ul{
+	padding-left:5px;
+}
+.iconlist{
+	max-height:1050px;
+	overflow: scroll;
+}
+.mobileslist{
+	max-height:1050px;
+	overflow: scroll;
+}
+}
+@media (min-width:1231px) and (max-width:1439px){
+#divtop .divtopitems{
+	vertical-align: center;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+#divtop .divtopitems li{
+	padding-right:100px;
+	padding-left: 40px;
+	margin: auto;
+	padding-top: 8px;
+}
+
+#logo{
+	width: 150px;
+	height: 40px;
+}
+#searchBar{
+	width:420px;
+	height: 30px;
+}
+#LoginBtn{
+	width:120px;
+}
+#menuBar{
+	height: 50px;
+}
+#menuBar ul{
+	float: left;
+}
+#menuBar ul li{
+	float:left;
+	padding-left:60px;
+	padding-right:40px;
+	vertical-align: center;
+	font-size:20px;
+}
+.deals .inner div{
+	float: left;
+	width: 30%;
+	height: 300px;
+	padding-left: 30px;
+	padding-right: 10px;	
+	vertical-align: center;
+	display: table-cell;
+	margin: auto;
+}
+.deals .inner div img{
+	width: 80%;
+	height: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: block;
+}
+.details{
+	width: 100%;
+	float: left;
+}
+.details1{
+	width: 60%;
+	float: left;
+}
+.details1 div{
+	width:30%;
+	float: left;
+}
+.details2{
+	width:40%;
+	float: left;
+}
+.details2 div{
+	width: 50%;
+	float: left;
+}
+.iconlist{
+	max-height:1050px;
+	overflow: scroll;
+}
+.mobileslist{
+	max-height:1050px;
+	overflow: scroll;
+}
+}
