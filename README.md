@@ -5,7 +5,7 @@ A responsive commercial website of 3 pages is built with html, CSS and JavaScrip
 
 Page 1:  (Given below) A slideshow of the various brands and their offers are made using JavaScript. Also the best deals of the day are shown. The next page opens on clicking ‘Mobiles’ tab.
 
-  ![page 1 screen](https://github.com/Aheri-Mondal/Web-Development-Front-End/blob/master/img/pg1.jpg | width = 250)
+  ![page 1 screen](https://github.com/Aheri-Mondal/Web-Development-Front-End/blob/master/img/pg1.jpg = 250x250)
 
 
 
