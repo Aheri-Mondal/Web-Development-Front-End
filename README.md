@@ -1,6 +1,8 @@
 # Web-Development-Front-End
 A responsive commercial website of 3 pages is built with html, CSS and JavaScript. Styling, hovering effects, highlights are used all over.
 
+![the website](https://aheri-mondal.github.io/Web-Development-Front-End/)
+
 Page 1:  (Given below) A slideshow of the various brands and their offers are made using JavaScript. Also the best deals of the day are shown. The next page opens on clicking ‘Mobiles’ tab.
 
   ![page 1 screen](https://github.com/Aheri-Mondal/Web-Development-Front-End/blob/master/img/pg1.jpg)
