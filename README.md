@@ -1,5 +1,5 @@
 # Web-Development-Front-End
-A responsive commercial website of 3 pages is built with html, CSS and JavaScript. Styling, hovering effects, highlights are used all over.
+A responsive commercial website of 3 pages is built with html, CSS and JavaScript. Styling, hovering effects, highlights are used all over s.
 
 [Click Here](https://aheri-mondal.github.io/Web-Development-Front-End/) to see the website.
 
